@@ -1,0 +1,16 @@
+{
+  "name": "quiensos-tpi",
+  "version": "1.0.0",
+  "description": "QuienSOS TPI - Sistema Monolítico Modular (DDD + Clean Code) de Identificación Médica de Emergencia mediante QR para Conductores",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings src/main.ts",
+    "dev": "node --watch --no-warnings src/main.ts",
+    "build": "node --no-warnings scripts/build-vercel.ts",
+    "test": "node --test --no-warnings tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "license": "MIT"
+}
